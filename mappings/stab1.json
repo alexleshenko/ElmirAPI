@@ -1,0 +1,13 @@
+{
+	"request":{
+		"method": "GET",
+		"url": "/whatssup"
+	},
+	"response":{
+		"status":200,
+		"body": "Mock responce",
+		"headers":{
+			"Content-Type": "text/plain"
+		}
+	}
+}

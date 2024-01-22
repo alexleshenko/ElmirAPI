@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ElmirTestSuite">
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+    <test name="ElmirTests">
+        <classes>
+            <class name="tests.ElmirApiTest"/>
+        </classes>
+    </test>
+</suite>

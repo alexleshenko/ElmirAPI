@@ -1,0 +1,18 @@
+{
+  "mappings": [
+    {
+      "priority": 1,
+      "request": {
+        "method": "GET",
+        "url": "/api/goods"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\"goods\":[\n    {\n      \"name\":\"Видеокарта Inno3D PCI-E GeForce RTX3090 24GB DDR6X iChill X4 (C30904-246XX-1880VA36)\",\n      \"price\":\"107 106 грн\",\n      \"availability\":\"под заказ (1‑5 дней)\",\n      \"code\": \"Код:1165372\"\n    },\n    {\n      \"name\":\"МФУ Kyocera Ecosys M2040dn (1102S33NL0)\",\n      \"price\":\"14 060 грн\",\n      \"availability\":\"Доступен\",\n      \"code\": \"Код: 1122990\"\n    },\n    {\n      \"name\":\"Автомобильный Bluetooth-приемник Baseus Qiyin AUX Car Bluetooth Receiver (WXQY-01)\",\n      \"price\":\"259 грн\",\n      \"availability\":\"В наличии\",\n      \"code\": \"Код: 37965\"\n    },\n    {\n      \"name\":\"Штатив VELBON EX-323 Mini\",\n      \"price\":\"1 004 грн\",\n      \"availability\":\"Доступен\",\n      \"code\": \"Код: 24567\"\n    }\n  ]}",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    }
+  ]
+}
